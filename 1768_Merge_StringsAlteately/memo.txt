@@ -1,0 +1,12 @@
+strのlenは、
+誤 str.len()
+正 len(str)
+
+unittestの基本的な使い方
+    unittest.TastCaseクラスを継承してTestHogeクラスを作る
+    TestHogeクラス内にテストケースを書く。
+        ex. def test_xxx(self):
+            ...
+    unittest.main()でテスト実行
+
+importはモジュール名(ファイル名)なのでclassを参照するときはmodulename.classnameでアクセス
